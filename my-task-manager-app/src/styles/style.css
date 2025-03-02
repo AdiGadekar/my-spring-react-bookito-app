@@ -1,0 +1,130 @@
+input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgb(255, 162, 2);
+  }
+  
+  .customeApplicationButton {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    background-color: #ee8c0a !important;
+    border-width: 2px !important;
+    font-weight: 800 !important;
+    color: white !important;
+    border-radius: 0.25rem !important;
+    margin: 0px;
+  }
+  
+  .customeApplicationButton:hover {
+    background-color: white;
+    color: #ee8c0a;
+    transform: scale(1);
+    transition-duration: 300ms;
+    border-color: #ee8c0a;
+  }
+  .custom-confirm-button {
+    background-color: #ee8c0a; 
+    color: white;
+    padding: 0.5rem 0.5rem; 
+    border: 2px solid #ee8c0a; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    transition: all 0.3s ease;
+  }
+  
+  .custom-confirm-button:hover {
+    background-color: cornsilk;
+    color: #ee8c0a;
+    border-color: #ee8c0a;
+  }
+  
+  .custom-confirm-button:focus {
+    outline: none;
+  }
+  
+  .custom-cancel-button {
+    background-color: #4b4b4b; 
+    color: white;
+    padding: 0.5rem 0.5rem; 
+    border: 2px solid #4b4b4b; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    transition: all 0.3s ease;
+  }
+  
+  .custom-cancel-button:hover {
+    background-color: white;
+    color: #4b4b4b;
+    border-color: #616161; 
+  }
+  
+  .custom-cancel-button:focus {
+    outline: none;
+  }
+  
+  .spinner-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; 
+  }
+  
+  .spinner {
+    border-top: 4px solid #ee8c0a; 
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+  }
+
+
+  .pageLoading-spinner-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pageLoading-spinner {
+    border-top: 4px solid #ee8c0a; 
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+  }
+  .local-spinner-overlay{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; 
+  }
+
+  .local-spinner {
+    border-top: 4px solid #ee8c0a; 
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+  }
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
